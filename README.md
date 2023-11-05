@@ -57,6 +57,15 @@ Wireframes
 ![IMG_D4E0C8AE0C40-1.jpeg](https://hackmd.io/_uploads/r1UeBFV76.jpg)
 
 
+
+
+
+
+
+Sprint1 : Design my login screen, my calendar and my schools list screen
+Sprint 2: Finish designing my search class tab and start with my profile tab
+Sprint 3 : Design my rating screen and then start functionality.
+
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
 Schema
