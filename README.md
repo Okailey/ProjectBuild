@@ -2,6 +2,7 @@
 This is my IOS development project
 
 Danielle Quaye
+
 Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
@@ -56,7 +57,8 @@ Wireframes
 [Add picture of your hand sketched wireframes in this section] 
 ![IMG_D4E0C8AE0C40-1.jpeg](https://hackmd.io/_uploads/r1UeBFV76.jpg)
 
-
+Video
+https://www.loom.com/share/03a1d2c51d074c3e8123ced1c9140b9d?sid=e9213481-8416-4555-97f6-a83b968fa642.gif
 
 
 
