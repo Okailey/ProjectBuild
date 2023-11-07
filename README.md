@@ -64,7 +64,11 @@ https://www.loom.com/share/03a1d2c51d074c3e8123ced1c9140b9d?sid=e9213481-8416-45
 
 
 
-Sprint1 : Design my login screen, my calendar and my schools list screen
+Sprint1 : Design my login screen/create an account, start with my calendar screen and my schools list screen (Designed log in and create an account screen and started with my school's list screen)
+<img width="227" alt="Screenshot 2023-11-07 at 9 47 56 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/2c0ca2bd-ba68-4953-a236-7af9b2acf98d">
+<img width="223" alt="Screenshot 2023-11-07 at 9 47 48 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/c5d9d6d5-8d28-42d6-be77-7694153f6590">
+<img width="236" alt="Screenshot 2023-11-07 at 9 47 42 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/f18d6c42-124b-4ce7-9f62-5b23b4542394">
+
 Sprint 2: Finish designing my search class tab and start with my profile tab
 Sprint 3 : Design my rating screen and then start functionality.
 
