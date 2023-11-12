@@ -2,16 +2,24 @@
 This is my IOS development project
 
 Danielle Quaye
+[Evaluation of your app across the following attributes]
+
+Category: Lifestyle
+Mobile: Yes
+Story: Here the user will be able to open the app to view quotes from an API i acquired online so everytime they open the app, they will get a new quote.
+Market: Anyone with the app
+Habit: Get quotes if you are feeling down or need some motivation
+Scope: the app i want to build is similar to this. I have the inspiration quote section but in the future i plan on adding a second tab for bible quotes with similar reactions and also a part for an audio version of the quotes for disabled people. The stripped down version was still interesting to build. 
 
 Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
 
 [fill in your required user stories here]
-The required features will be having a login section to be able to log into the app. Then, a search bar to choose the school. Then there will be a calendar like screen with an add button for which students can search up their classes and see their offered times. They can choose the semester they want. For every semester, classes will be updated according to the selected school's courses. 
+Here the user will be able to open the app to view quotes from an API i acquired online so everytime they open the app, they will get a new quote.
 ...
 Optional Nice-to-have Stories
-emojis about how people are feeling about the course. Students who have taken the class can rate it anonymously so other people taking the class can see.
+GIfs for the buttons pressed
 
 [fill in your required user stories here]
 ...
@@ -20,57 +28,46 @@ emojis about how people are feeling about the course. Students who have taken th
 The first screen will be the login screen/ create an account screen 
 [list associated required story here]
 Here, students will sign in with their school credentials to be able to view the schools and then select their correct school. Here 
-...list second screen here]
-The second screen will be the screen where there will be a search bar and a list of schools. 
-[list associated required story here]
-Here, students will have the opportunity to search up their school and then click it. Remember,this screen contains a list of multiple schools.
-...
+.
 3. Navigation
 Tab Navigation (Tab to Screen)
 
 [fill out your first tab]
-search classes
-[fill out your second tab]
-profile
-[fill out your third tab]
-ratings for classes
+inspiQuote screen
+
 
 Flow Navigation (Screen to Screen)
 
 [list first screen here]
-The first screen will be the login screen
+The first screen will be the home page for the phone
 [list screen navigation here]
-Here is where we can log in to be able to see the list of schools
+This is where we see all the apps on the iphone
 
 ...
 [list second screen here]
-Second screen will be the list of schools and for easy access, there will be a search bar so you just type it in.
+Second screen will be the when the user clicks on the app, they will get an inspirational quote.
 [list screen navigation here]
-once you login/signup, you will be brought to this page to choose your school to be able to see the courses offered and what to pick
-...
-[list third screen here]
-The third screen will be your calendar screen, the part where you will be able to add classes to your calendar.
-[list screen navigation here]
-once you get to this screen, you will be able to search up courses and add them to your calendar.
+once you click on the app, you will receive a quote, and you can tap buttons to show your reaction to it. Every button is a positive button
+
 
 Wireframes
 [Add picture of your hand sketched wireframes in this section] 
-![IMG_D4E0C8AE0C40-1.jpeg](https://hackmd.io/_uploads/r1UeBFV76.jpg)
+![IMG_AA85F5AE2692-1](https://github.com/Okailey/ProjectBuild/assets/124476464/5eb2a35e-350f-42eb-8e23-1c141fd23d05)
+
 
 Video
-https://www.loom.com/share/03a1d2c51d074c3e8123ced1c9140b9d?sid=e9213481-8416-4555-97f6-a83b968fa642.gif
+https://www.loom.com/share/9286dde56c3541e08488c4451ea87ccf?sid=fbda8dd0-e88e-4ee4-a178-cb18b5be9f26
 
 
+Sprint1 : Design my screen
+<img width="292" alt="Screenshot 2023-11-12 at 6 34 47 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/1dd84c7a-04fc-4b29-849c-bb4b8887f79a">
 
+Sprint 2: Finish designing my screen and then start coding out the fucntionality
+<img width="278" alt="Screenshot 2023-11-12 at 6 37 10 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/f0e3c04b-3a57-4974-a1a8-0638bf8f7a14">
 
+Sprint 3 :Finish with the functionality and add GIFs
+<img width="205" alt="Screenshot 2023-11-12 at 6 35 19 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/12103e67-19fb-4e61-810b-9fb8e724450f">
 
-Sprint1 : Design my login screen/create an account, start with my calendar screen and my schools list screen (Designed log in and create an account screen and started with my school's list screen)
-<img width="227" alt="Screenshot 2023-11-07 at 9 47 56 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/2c0ca2bd-ba68-4953-a236-7af9b2acf98d">
-<img width="223" alt="Screenshot 2023-11-07 at 9 47 48 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/c5d9d6d5-8d28-42d6-be77-7694153f6590">
-<img width="236" alt="Screenshot 2023-11-07 at 9 47 42 AM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/f18d6c42-124b-4ce7-9f62-5b23b4542394">
-
-Sprint 2: Finish designing my search class tab and start with my profile tab
-Sprint 3 : Design my rating screen and then start functionality.
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
@@ -82,5 +79,8 @@ Models
 
 Networking
 [Add list of network requests by screen ]
+API request for quotes
 [Create basic snippets for each Parse network request]
+
 [OPTIONAL: List endpoints if using existing API such as Yelp]
+"https://api.quotable.io/random"
