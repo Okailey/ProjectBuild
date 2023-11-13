@@ -60,13 +60,16 @@ https://www.loom.com/share/9286dde56c3541e08488c4451ea87ccf?sid=fbda8dd0-e88e-4e
 
 
 Sprint1 : Design my screen
-<img width="292" alt="Screenshot 2023-11-12 at 6 34 47 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/1dd84c7a-04fc-4b29-849c-bb4b8887f79a">
 
-Sprint 2: Finish designing my screen and then start coding out the fucntionality
-<img width="278" alt="Screenshot 2023-11-12 at 6 37 10 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/f0e3c04b-3a57-4974-a1a8-0638bf8f7a14">
+<img width="292" alt="Screenshot 2023-11-12 at 6 34 47 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/1dd84c7a-04fc-4b29-849c-bb4b8887f79a"> Done
+
+Sprint 2: Finish designing my screen and then start coding out the functionality
+
+<img width="278" alt="Screenshot 2023-11-12 at 6 37 10 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/f0e3c04b-3a57-4974-a1a8-0638bf8f7a14"> Done
 
 Sprint 3 :Finish with the functionality and add GIFs
-<img width="205" alt="Screenshot 2023-11-12 at 6 35 19 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/12103e67-19fb-4e61-810b-9fb8e724450f">
+
+<img width="205" alt="Screenshot 2023-11-12 at 6 35 19 PM" src="https://github.com/Okailey/ProjectBuild/assets/124476464/12103e67-19fb-4e61-810b-9fb8e724450f"> Done
 
 
 [BONUS] Digital Wireframes & Mockups
