@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InspirationalQuotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quote of the Day. Get up and be you!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwP-f7-lAJ">
+                                <rect key="frame" x="48" y="118" width="299" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="Nj6-ef-iOF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcY-HM-AU3">
+                                <rect key="frame" x="59" y="307" width="275" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="guK-iJ-FZj"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Quote">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="22" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Me5-iH-QiH">
+                                <rect key="frame" x="48" y="524" width="95" height="35"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I like this!" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="likeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcL-Ls-0pq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEh-xf-y2c">
+                                <rect key="frame" x="246" y="524" width="101" height="35"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I love this!" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="loveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aiu-jM-6VH"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4RK-U0-ZjP">
+                                <rect key="frame" x="16" y="586" width="168" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="i9M-1J-Uhs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YBF-Vy-omd">
+                                <rect key="frame" x="210" y="586" width="167" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="167" id="BER-cg-EQl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5v-6g-PHZ">
+                                <rect key="frame" x="48" y="78" width="286" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="PYd-2u-LNv"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="InspiQuote">
+                                        <attributes>
+                                            <font key="NSFont" size="30" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="b5v-6g-PHZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="0Ep-ch-lcf"/>
+                            <constraint firstItem="Me5-iH-QiH" firstAttribute="top" secondItem="kcY-HM-AU3" secondAttribute="bottom" constant="45" id="2oi-IC-yFc"/>
+                            <constraint firstItem="4RK-U0-ZjP" firstAttribute="bottom" secondItem="YBF-Vy-omd" secondAttribute="bottom" id="6ai-92-8U5"/>
+                            <constraint firstItem="b5v-6g-PHZ" firstAttribute="trailing" secondItem="kcY-HM-AU3" secondAttribute="trailing" id="6xI-Gf-4Fj"/>
+                            <constraint firstItem="4RK-U0-ZjP" firstAttribute="top" secondItem="Me5-iH-QiH" secondAttribute="bottom" constant="27" id="7ib-o9-aG2"/>
+                            <constraint firstItem="kcY-HM-AU3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bui-wU-LJT"/>
+                            <constraint firstItem="YBF-Vy-omd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Elz-Ev-Zrx"/>
+                            <constraint firstItem="YBF-Vy-omd" firstAttribute="leading" secondItem="4RK-U0-ZjP" secondAttribute="trailing" constant="26" id="JVH-Oo-YuT"/>
+                            <constraint firstItem="kcY-HM-AU3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="KIW-cb-PL6"/>
+                            <constraint firstItem="wwP-f7-lAJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="KY0-6p-jxa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wwP-f7-lAJ" secondAttribute="trailing" constant="46" id="PfC-vh-Nxz"/>
+                            <constraint firstItem="4RK-U0-ZjP" firstAttribute="top" secondItem="YBF-Vy-omd" secondAttribute="top" id="VZn-kO-i2n"/>
+                            <constraint firstItem="b5v-6g-PHZ" firstAttribute="leading" secondItem="wwP-f7-lAJ" secondAttribute="leading" id="aXL-7d-Ux2"/>
+                            <constraint firstItem="4RK-U0-ZjP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="auZ-ga-Gkg"/>
+                            <constraint firstItem="wwP-f7-lAJ" firstAttribute="trailing" secondItem="VEh-xf-y2c" secondAttribute="trailing" id="f0P-k9-Rbl"/>
+                            <constraint firstItem="wwP-f7-lAJ" firstAttribute="leading" secondItem="Me5-iH-QiH" secondAttribute="leading" id="f6b-c0-9Zx"/>
+                            <constraint firstItem="Me5-iH-QiH" firstAttribute="baseline" secondItem="VEh-xf-y2c" secondAttribute="baseline" id="ppw-f8-ILQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4RK-U0-ZjP" secondAttribute="bottom" constant="27" id="rKX-xy-pe1"/>
+                            <constraint firstItem="wwP-f7-lAJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="sHw-mQ-yGg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="likeButton" destination="Me5-iH-QiH" id="3Gc-Dh-igP"/>
+                        <outlet property="likeGif" destination="4RK-U0-ZjP" id="fLz-wJ-fXj"/>
+                        <outlet property="loveButton" destination="VEh-xf-y2c" id="gD2-Gf-S9a"/>
+                        <outlet property="loveGif" destination="YBF-Vy-omd" id="S0G-lL-wra"/>
+                        <outlet property="quote" destination="kcY-HM-AU3" id="pEJ-Up-rAD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.618320610687022" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
